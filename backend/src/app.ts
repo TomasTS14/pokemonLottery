@@ -9,7 +9,7 @@ import { pokemonRouter } from "./pokemon/infrastructure/rest/pokemon.router";
 dotenv.config();
 
 const corsOptions = {
-    origin: ["http://localhost:3000"]
+    origin: ["https://pokemon-lottery-ul8n.vercel.app"]
 }
 
 const app = express();
